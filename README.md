@@ -1,5 +1,16 @@
 # MouseLab — دورهٔ جامع آمار و یادگیری ماشین، ۴۹ درس
 
+## تازه: مسیر یکپارچهٔ ۸۱درسی
+
+۴۹ درس اصلی بدون حذف حفظ شده‌اند و ۳۲ درس تکمیلی با مثال‌های ساده و مفاهیم پیشرفته اضافه شده است. نسخهٔ یکپارچه شامل ۸۶ سلول اجرایی و ۸۵ نمودار ذخیره‌شده است و از ابتدا تا انتها اجرا شده است.
+
+- [بازکردن مستقیم هر ۸۱ درس در Google Colab](https://colab.research.google.com/github/baapar1101/mouselab-statistics-course/blob/main/MouseLab_Complete_81_Colab.ipynb)
+- [بازکردن مستقل ۳۲ درس تکمیلی](https://colab.research.google.com/github/baapar1101/mouselab-statistics-course/blob/main/MouseLab_Statistics_Data_Mastery_32_Colab.ipynb)
+
+مسیر تازه: مخرج و کمیت هدف؛ احتمال شرطی و بیز؛ توزیع‌ها، حد مرکزی و پوشش؛ درست‌نمایی و پسین؛ هم‌ارزی و FDR؛ آزمایش و توقف زودهنگام؛ لجستیک و شمارش؛ سیمپسون، DAG و اثر علّی؛ دادهٔ گمشده؛ آمار مقاوم و Ridge؛ تبدیل لگاریتم و تجمیع جزئی؛ نشت و اعتبارسنجی؛ کالیبراسیون و Conformal؛ وابستگی زمانی؛ Grain و Join؛ توافق اندازه‌گیری؛ آنتروپی؛ و تصمیم مسئولانه.
+
+تمام مثال‌های ۳۲ درس تازه مصنوعی و دارای سازوکار صریح‌اند؛ پارامتر معلومِ یک شبیه‌سازی، شاهدی دربارهٔ جهان واقعی نیست. فایل مستقل ۴۹درسیِ زیر همچنان در دسترس است.
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/baapar1101/mouselab-statistics-course/blob/main/MouseLab_Full_Course_49_Colab.ipynb)
 
 نسخهٔ کامل و قابل اجرای آموزش فارسی MouseLab؛ شامل ۴۹ درس در ۷ فصل، ۵۲ سلول اجرایی و ۵۳ نمودار ذخیره‌شده، با مفهوم، فرمول، مثال حل‌شده، تفسیر خروجی، کاربرد و تمرین با پاسخ.
