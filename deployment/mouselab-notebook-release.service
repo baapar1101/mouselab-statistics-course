@@ -1,0 +1,25 @@
+[Unit]
+Description=Pull and activate only verified MouseLab notebook releases
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=mouselab-release
+Group=mouselab-release
+ExecStart=/usr/bin/python3 -I /usr/local/lib/mouselab-release/notebook-release-agent.py
+TimeoutStartSec=150
+UMask=0022
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/opt/mouselab-atlas/notebook-live
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+CapabilityBoundingSet=
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+

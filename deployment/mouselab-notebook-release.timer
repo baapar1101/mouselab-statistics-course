@@ -1,0 +1,11 @@
+[Unit]
+Description=Check for a verified MouseLab release every minute
+
+[Timer]
+OnBootSec=30s
+OnUnitInactiveSec=60s
+RandomizedDelaySec=5s
+Unit=mouselab-notebook-release.service
+
+[Install]
+WantedBy=timers.target
