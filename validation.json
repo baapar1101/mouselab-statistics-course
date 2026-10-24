@@ -297,7 +297,7 @@
     },
     {
       "lesson": "lesson-15",
-      "sha256": "a17834a07543085b030938b4e79146d526df0fd4b67a18c5e66dda054c4fd23e",
+      "sha256": "8ef190ef077190148ccc7c71e948a2c81fced2b2ef998e0fb8f22c66d6fcb798",
       "width": 1198,
       "height": 429
     },
@@ -520,11 +520,11 @@
   ],
   "schema": 1,
   "status": "passed",
-  "source_commit": "037f8030613e8fa2e146ff092bc9dea929ed35b7",
-  "workflow_run": "40067009774",
-  "notebook_sha256": "dc3d75d753e5420be2252deff564b964f4ad3edb3048b235382c2d4b8361cc4c",
+  "source_commit": "06062dc99f883986646da8d0f12e2d8abc0fd467",
+  "workflow_run": "40067477804",
+  "notebook_sha256": "348fd1559bd74513521dcd820f1fd38ad332063c9a37c389f6a4a71980c21cc8",
   "input_sha256": "b919848ba7a10c215f8ceb2c89bbae3c46b514c2b49f00f5d1e7e07dad32212d",
-  "duration_seconds": 19.39,
+  "duration_seconds": 25.86,
   "environment": {
     "numpy": "2.2.6",
     "pandas": "2.3.3",
