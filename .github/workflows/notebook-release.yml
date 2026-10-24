@@ -36,6 +36,8 @@ jobs:
           cache: pip
           cache-dependency-path: ci/requirements.txt
       - run: python -m pip install -r ci/requirements.txt
+      - name: Test rejection of invalid saved outputs
+        run: python ci/test_contract.py
       - name: Execute all cells and inspect outputs
         env:
           EXERCISE_FAILURE_GATE: ${{ inputs.exercise_failure_gate }}
