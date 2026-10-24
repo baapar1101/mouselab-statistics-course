@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "filename": "MouseLab_Complete_81_Colab.ipynb",
+  "source_commit": "4848aa71dca3f6238989cad79af8a1890f91ba8e",
+  "workflow_run": "40066488297",
+  "sha256": "45734ef35f33604e469ec371947c9e0a8a3aa2dbd6d591aad24fa2f25f6f43da",
+  "lessons": 81,
+  "figures": 85,
+  "executed_cells": 86
+}

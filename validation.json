@@ -1,0 +1,538 @@
+{
+  "lessons": 81,
+  "executed_cells": 86,
+  "figures": 85,
+  "interpretations": 81,
+  "reference_check_cells": 2,
+  "errors": [],
+  "warnings": [],
+  "image_checks": [
+    {
+      "lesson": "estimand",
+      "sha256": "370cd51832a287f887d569cb4f28fdb86ec136dd0faf3fe81fc37862b0ac6cab",
+      "width": 764,
+      "height": 452
+    },
+    {
+      "lesson": "measurement",
+      "sha256": "611bd88b8fe708c919f7a4f6e8286447b4e2b8e46b8cb702ac81887b73f889cd",
+      "width": 791,
+      "height": 473
+    },
+    {
+      "lesson": "joins",
+      "sha256": "0dd00149f0f57f7d172e1c869355811286a2acbe150794b6ceef065dbc2d3475",
+      "width": 774,
+      "height": 452
+    },
+    {
+      "lesson": "missing",
+      "sha256": "bd804f66ce66bacdfa7bb208f92221795cf2bbcc7b4f44350f87eb65066a204a",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "sampling",
+      "sha256": "25f64c0e2cf21eb3e522d47e94818b39a1e1a704df1a942e16d459c8d5764293",
+      "width": 755,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-2",
+      "sha256": "b6db6552ac277806892c0a5406005ce8109c5b9d2eec410acbedf7d09e5f3a01",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-3",
+      "sha256": "d79a0352bfeff6257b45bf6e57427a5aa678afe69b1df840a8a4b3f65f59de63",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-5",
+      "sha256": "8b7ba2479e9ff7732df51ddad39f7360bce07a5f2d80eac04c652e6fe1701a5e",
+      "width": 639,
+      "height": 320
+    },
+    {
+      "lesson": "lesson-10",
+      "sha256": "44fcfb0de60330ed7d915c4a1eb17d429dd583b58db94d29442238343e7be1ce",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "robust",
+      "sha256": "e2b5aa4dfa0dd6104a34e6f480349605fbfcfc16158f60ea02f883756c0099cd",
+      "width": 769,
+      "height": 473
+    },
+    {
+      "lesson": "conditional",
+      "sha256": "7f421d234d6c8da931d17290be9ac81f00e0af9905382e15953628dbba3bdf69",
+      "width": 765,
+      "height": 452
+    },
+    {
+      "lesson": "bayes",
+      "sha256": "f8b8fae6bb9a3bcae5f62d53369ae067988c96d5bc682c6067c81d92e7bffb86",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "distributions",
+      "sha256": "6c09e80c222f0d28c40603b5054e890f01c6a31c2b58337d91350a18a72caffa",
+      "width": 1332,
+      "height": 430
+    },
+    {
+      "lesson": "lesson-4",
+      "sha256": "cfce7a3ff7849544ca06adf46b9ed0bc9ccaedddc53b08a4416e7f8605b9fc57",
+      "width": 779,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-6",
+      "sha256": "21a23d0f70c2784472f7ccd8c0c453ef87280a57892873842b38781cfb0db52e",
+      "width": 1112,
+      "height": 672
+    },
+    {
+      "lesson": "lesson-7",
+      "sha256": "2e57128ad672f55278ab263ef252449f03bb3c3cade18591579dceebbeee7a9d",
+      "width": 1112,
+      "height": 672
+    },
+    {
+      "lesson": "lesson-11",
+      "sha256": "ef8d228574f22e4a52a9a275531784e703bf43b732ede807755b6be2ae43cde9",
+      "width": 758,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-12",
+      "sha256": "87b4ce104df27941bb4592138ea60b8483ed9e8b42feaa81ae6293ef20e48fd5",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-13",
+      "sha256": "c54ef30af48e1e01cb295f9c62325d0d3abb5ac2dd70adcc25433aa511ad5150",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-16",
+      "sha256": "9936ee70b6347b0a6766a22bc67125c782604253639177be86d6e37338eaa952",
+      "width": 1112,
+      "height": 452
+    },
+    {
+      "lesson": "transform",
+      "sha256": "b7ea26f6f6c0d7b6c022ad44aec8339a3a1f36145fb2f970ccf8f4efabc1a9f2",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "dependence",
+      "sha256": "72b2674a22bfed8bb4c1acd8ec10e6b7dbf1d643ecbfdbc062d0ff2e9743edd1",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "clt",
+      "sha256": "aabb3ffdbe43eb6487f04c78be1c584ee6f91cb84697744e16c5358cf5306d28",
+      "width": 1112,
+      "height": 672
+    },
+    {
+      "lesson": "lesson-8",
+      "sha256": "65055a4aaaf8ccfd23bda1e8f4c64936ff665764809a23530af3ad3c2efee37b",
+      "width": 979,
+      "height": 374
+    },
+    {
+      "lesson": "coverage",
+      "sha256": "9efedc57c918040d90760cc237ce8303acecaf742583ff6db26abbce414e785c",
+      "width": 849,
+      "height": 600
+    },
+    {
+      "lesson": "lesson-9",
+      "sha256": "9757aeec0ea28f837b82176edb3c3e85fcb965e77fa91c61b1c5dae373c69f75",
+      "width": 774,
+      "height": 473
+    },
+    {
+      "lesson": "inference",
+      "sha256": "3688bec2afefe548728d0c1884212af3fb4b3b948a4092bc4fc71afed198b6d1",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "likelihood",
+      "sha256": "2030e523d50b4e776ae99debd9580b76e655dce3a918db8a54b8f3d6e9d02fd2",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "posterior",
+      "sha256": "cb9cb358d2195222441a1be32a89332297eadcfff981d4155e76d22fe877e7d1",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-19",
+      "sha256": "dd57612b6b0e0e9f8ccf898cba778e61c15222418de092c018eaaebbc1cfd7ec",
+      "width": 868,
+      "height": 429
+    },
+    {
+      "lesson": "lesson-22",
+      "sha256": "92474fc9b08a1a3c0a9d7c510a2152aeec3b9a7ff3dd71486cf0a665b037e42a",
+      "width": 760,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-23",
+      "sha256": "61b859948fcc36d3535f2edf7eb7419591a4524493e57f87de307ddea39dd32e",
+      "width": 839,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-18",
+      "sha256": "4766c31efc41352c225d58ae64f93b0bba900ccb0e96231ddb98515852853e01",
+      "width": 868,
+      "height": 429
+    },
+    {
+      "lesson": "lesson-25",
+      "sha256": "f74f99dc35e0b7634893de7754bae2ae8aa26956ed004d2955e2189a5b7dc73c",
+      "width": 868,
+      "height": 429
+    },
+    {
+      "lesson": "lesson-21",
+      "sha256": "f6c389bb246a7aa76ad782e375299d203a6f8e5e48838a3695bec45dd0e65b92",
+      "width": 868,
+      "height": 429
+    },
+    {
+      "lesson": "lesson-26",
+      "sha256": "aa2854efa1616314759da1d4964aaa95cc6bef325507b7655eeae711e46cb0b4",
+      "width": 868,
+      "height": 483
+    },
+    {
+      "lesson": "lesson-28",
+      "sha256": "58ae2bfd6cc3af7121f6be0727ab19a35e1e7e90c5a846678b0288573f5efbd5",
+      "width": 755,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-27",
+      "sha256": "fa8becdd663a763fa6a699f28de4b3ff3cfbcaf51bf839fe4dd3ce28c6506ff9",
+      "width": 508,
+      "height": 409
+    },
+    {
+      "lesson": "equivalence",
+      "sha256": "349be75ef42747bac0d56fb22308e25330a5dd27f8184d3ce0af8cf37095dc34",
+      "width": 789,
+      "height": 346
+    },
+    {
+      "lesson": "fdr",
+      "sha256": "e5ac5175e09e6c236d516a9ad65d88db1dd43ee6d6e4d20e5b3d10eb264b27ae",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "randomization",
+      "sha256": "43a712f331cd6d9ce47c3f1a6a3a241e5620795f96c2c6d83d9c1425b7327824",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "peeking",
+      "sha256": "6dba7af8a258fefd274039476345d42b1cd1c3d13f22f3084fa1db81d054c012",
+      "width": 755,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-14",
+      "sha256": "40e2972339410c7c8a416bd92b825e94ae1ba442157a6bb155a6bba3dc5fedc1",
+      "width": 655,
+      "height": 512
+    },
+    {
+      "lesson": "scatter-matrix",
+      "sha256": "f2199802fd8cdbdeb100740e032b1f0c62f8063c77c59f595ee68c862ead65fd",
+      "width": 933,
+      "height": 1072
+    },
+    {
+      "lesson": "scatter-matrix",
+      "sha256": "09ae02c1ad28fa4a1baf70583e978c7f7f3b9110612fd62007ebbf1933c29f54",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "simpson",
+      "sha256": "0b1d888c2328548aafb6bfd28da7d4bde73bfee32b877f2bedf03ae1bafdbd91",
+      "width": 764,
+      "height": 452
+    },
+    {
+      "lesson": "dag",
+      "sha256": "54906aa24cc1c55613210cbbb16d8d95b56188855807e29a1402084c029b148e",
+      "width": 1222,
+      "height": 507
+    },
+    {
+      "lesson": "causal",
+      "sha256": "92d559775e2e32e7c70060006404adeaf8fb72ab4718208074d4f0bbaafa16ba",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-15",
+      "sha256": "8ef190ef077190148ccc7c71e948a2c81fced2b2ef998e0fb8f22c66d6fcb798",
+      "width": 1198,
+      "height": 429
+    },
+    {
+      "lesson": "lesson-17",
+      "sha256": "3b7a085e45e28902709d2aad35794f2dfdcdf6d3b906a0e969b2a8c97fe0d0d0",
+      "width": 703,
+      "height": 329
+    },
+    {
+      "lesson": "lesson-20",
+      "sha256": "2999e11dace47bec5c04096051bff6f383711a7538c7b36068e4eba7fb3e9af3",
+      "width": 978,
+      "height": 429
+    },
+    {
+      "lesson": "logistic",
+      "sha256": "67ad66a990288d26c08afa214cba2ce614585ba08b981145d5723e1afdb6d225",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "counts",
+      "sha256": "79dacd49fba48cad08cf0abc358d8bfef6861787d9b74a4569a4b25243a5fe18",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "ridge",
+      "sha256": "c07bc7dde8e790749b73178c268dd796a1c08fd820573903b731d7bd589bb046",
+      "width": 758,
+      "height": 473
+    },
+    {
+      "lesson": "pooling",
+      "sha256": "26683dc2cd74dd100329c9ecb17980b7253cc04591b5d6f5c4d3d94d4108e67b",
+      "width": 827,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-24",
+      "sha256": "1fbd84d8b8357fdb7826e394769b142a7311b7bd682ef83dc9b40d6e6e4ed93d",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "pca-reading",
+      "sha256": "c534ec93a7e63b0372ec92b3f30c777bb5954c18f20d80e7fe39da5f6e1fa5df",
+      "width": 1332,
+      "height": 562
+    },
+    {
+      "lesson": "lesson-30",
+      "sha256": "6365e9635752f68781ac3d9246c50ada7ae4ef201f92d00cd9ef615481dfbf4f",
+      "width": 769,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-31",
+      "sha256": "af57ba00a58fec5784b773ef620743b3ba40a1d4c299500ee44c4a06abf4f112",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-32",
+      "sha256": "5609815f9faf1ea7e3ed0d858ca786bd03b6d5785199b9c82ac1daec6993dfc8",
+      "width": 774,
+      "height": 473
+    },
+    {
+      "lesson": "evaluation",
+      "sha256": "9e39074d0fc94a2c2d58d7fd90176ed3ce46897b5378591aff5672728e569f09",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "validation",
+      "sha256": "db00355b8624a94e3e39580352849a84aee9090fc00a7cee0d88bf162993d0e3",
+      "width": 760,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-29",
+      "sha256": "6f593f4221ed8737309aedffe62c4b981835af0d7da6617334081fb8e44c4aaa",
+      "width": 452,
+      "height": 430
+    },
+    {
+      "lesson": "lesson-36",
+      "sha256": "312a798e9fccb2df820e24eca98823e50ce08339806206a1f44479986456b139",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-33",
+      "sha256": "65d4e38f82a976b5ebe2114601ffb0cdd0b3bba00159a225e4152fa4ed269d74",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-34",
+      "sha256": "bd90fce1951758c0af53c996784b3879b5ea9440dfbf7f30b8246ea1248fcd51",
+      "width": 769,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-37",
+      "sha256": "0182da6b14e763f376cc0b57ca41befc6716c7d41110f295f74f1cadbec82e90",
+      "width": 745,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-38",
+      "sha256": "181608da55888f3a06f0656373341c1f2b5ad15aa3efbdbd3d4c5497ce091369",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "information",
+      "sha256": "8d1ad31dcc366407fb0f6bc2cdf07be251c2fe59d1da9eb19aa0e23311c01e10",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "calibration",
+      "sha256": "493387970f35621cc53f5ba794d66de05b1e43ca0c3736ad70efe742d11a590e",
+      "width": 772,
+      "height": 473
+    },
+    {
+      "lesson": "conformal",
+      "sha256": "12c9d98f7dfe0870de20ea7197eabc0a008696d49801a9f40ff9b878fcc6903c",
+      "width": 782,
+      "height": 473
+    },
+    {
+      "lesson": "lesson-35",
+      "sha256": "10f03dd3e32753d0de35232c58a0b539431142faa0e78057ec22cb3d3a00a64d",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "logrank",
+      "sha256": "c866ae111b1154d7e2da8d8dc9cba00dceef1fd7aa7ef4e5f21407fc2f7f6742",
+      "width": 760,
+      "height": 430
+    },
+    {
+      "lesson": "time-dependence",
+      "sha256": "d200aa6fea1ad0564ce49f81c9fa115d8f5933d253f5d62e3e3ad78d369acae7",
+      "width": 1222,
+      "height": 452
+    },
+    {
+      "lesson": "lesson-39",
+      "sha256": "b28bfb082186c93032105ba7ca3d767d17d5e77d9b2c0193ca5f50f344f2bfe2",
+      "width": 755,
+      "height": 473
+    },
+    {
+      "lesson": "time-tools",
+      "sha256": "888f82954fb7db6890ac05465ce5871edc43c808d8540895dbe6d3b562c7f9c8",
+      "width": 952,
+      "height": 430
+    },
+    {
+      "lesson": "time-tools",
+      "sha256": "e9d9888f9ced31c9fef987d6947ba9bc45fc124a946a8aa8659a963c730b4ac1",
+      "width": 1085,
+      "height": 894
+    },
+    {
+      "lesson": "time-tools",
+      "sha256": "a5008322fd9ff21203dd59579c188b6060d8237f8abd74fb2d9115fd4df8af4c",
+      "width": 944,
+      "height": 430
+    },
+    {
+      "lesson": "real-quartiles",
+      "sha256": "3fc3cff6cd515b26a22bbf1f37ba8f95e38b9254e3e88b0eedc138ccb0908717",
+      "width": 1332,
+      "height": 507
+    },
+    {
+      "lesson": "real-quartiles",
+      "sha256": "a0503895491f2a667972afeb0b925fa8523953f116199c0a535a05341a96a3c7",
+      "width": 760,
+      "height": 473
+    },
+    {
+      "lesson": "real-moments",
+      "sha256": "7f8fad3bb8e31368fd955e1ba62e7872b90acbf3e11c40c20c61fd58d2a50ed0",
+      "width": 1332,
+      "height": 507
+    },
+    {
+      "lesson": "real-moments",
+      "sha256": "bdc646062a80a06bc1e2d958243ee1dc2116daa904e22c797ef9c1bfab1b5478",
+      "width": 1332,
+      "height": 452
+    },
+    {
+      "lesson": "real-correlation",
+      "sha256": "2eb15fd4ae1cbe34a2d95776c79aa36f8a0231e067074f380be4eff7782d25be",
+      "width": 1332,
+      "height": 507
+    },
+    {
+      "lesson": "responsible",
+      "sha256": "e64e48c68bfb746425d477a64bfa4ac4e264251bee075b8cabbb43b8804a8470",
+      "width": 764,
+      "height": 452
+    },
+    {
+      "lesson": "design",
+      "sha256": "a31287d7e7bf523025e0d1240de985bf6e55f4e2c7d037017c0240c8c77c2b2a",
+      "width": 1222,
+      "height": 452
+    }
+  ],
+  "schema": 1,
+  "status": "passed",
+  "source_commit": "4848aa71dca3f6238989cad79af8a1890f91ba8e",
+  "workflow_run": "40066488297",
+  "notebook_sha256": "45734ef35f33604e469ec371947c9e0a8a3aa2dbd6d591aad24fa2f25f6f43da",
+  "input_sha256": "b919848ba7a10c215f8ceb2c89bbae3c46b514c2b49f00f5d1e7e07dad32212d",
+  "duration_seconds": 25.55,
+  "environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.7",
+    "statsmodels": "0.14.5",
+    "scikit-learn": "1.7.2",
+    "nbclient": "0.11.0"
+  },
+  "limits": "Automated runtime, reference assertions, coverage and PNG integrity checks; not a human review of new scientific claims."
+}
