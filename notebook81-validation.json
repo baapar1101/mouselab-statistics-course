@@ -1,0 +1,607 @@
+{
+  "lessons": 81,
+  "chapters": 13,
+  "code_cells": 86,
+  "figures": 85,
+  "errors": [],
+  "warnings": [],
+  "execution_seconds": 17.2,
+  "source_analysis_cells_preserved": 81,
+  "source_cells": [
+    {
+      "id": "estimand",
+      "original_code_sha256": "0f80da63f2171a614c0189ae3188dd7fb4c784c602b1bf3fa1808b59caac13fa",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-1",
+      "original_code_sha256": "534c7146d0ddb5de7f8010d30fa181bd2a075dd5a67663b559f320153a9005c0",
+      "explicit_inputs": []
+    },
+    {
+      "id": "measurement",
+      "original_code_sha256": "fbc14f74242be825696006c2a6859ea3642677882b2522c950375970b166c94d",
+      "explicit_inputs": []
+    },
+    {
+      "id": "joins",
+      "original_code_sha256": "52e5a778a67900c67376898806ed6c4e8633d95490d2a54a33e7475dc495b32a",
+      "explicit_inputs": []
+    },
+    {
+      "id": "missing",
+      "original_code_sha256": "18b6943edb07cc35ff95a05b42d628ed78699efc1fde040a46cd154d06bb5680",
+      "explicit_inputs": []
+    },
+    {
+      "id": "sampling",
+      "original_code_sha256": "457dfa37648bd6bd8d4f676060c98d11a0de7eb5e13fb64ad46d05fcae12f175",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-2",
+      "original_code_sha256": "b57a87374d5fab151eaae24591cc066217ec474c1e2ddbf122c5e4084d16e9ad",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-3",
+      "original_code_sha256": "420b43c93fbc07a2afeec3e566431925f37c03cd3f1341c07a2920ae2b4531ae",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-5",
+      "original_code_sha256": "4428a3faf19356869a7bf6b1a9bee9fccaa3dff3d89a54a865cff04056af4fbb",
+      "explicit_inputs": [
+        "x"
+      ]
+    },
+    {
+      "id": "lesson-10",
+      "original_code_sha256": "e77845a3c8996db5ac412693c29b4d4cc8de665fb66cd93a94a63413f67c7d4b",
+      "explicit_inputs": [
+        "x"
+      ]
+    },
+    {
+      "id": "robust",
+      "original_code_sha256": "4618bd31fca3e362bf6457d8527a2cf843b268e5a941e6d35ee87075b6ac24ad",
+      "explicit_inputs": []
+    },
+    {
+      "id": "conditional",
+      "original_code_sha256": "c87695d7f97ba8a8fc8301ed925fc4c67bd997789cc7f7541fa9db2dc35cc093",
+      "explicit_inputs": []
+    },
+    {
+      "id": "bayes",
+      "original_code_sha256": "8f3fda03a1e0bfc8291ae7c45581c1f1e61e5167a6b3701cac3f74883d226e3e",
+      "explicit_inputs": []
+    },
+    {
+      "id": "distributions",
+      "original_code_sha256": "1000106870b57b8f3462a9a3681f9ac9d4cf3339bec73e4ed9345b3ca915a620",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-4",
+      "original_code_sha256": "a25f6f042149e8dbb751d6ef56838db9b8cab4d6b80881c417867afc4e8223fb",
+      "explicit_inputs": [
+        "x"
+      ]
+    },
+    {
+      "id": "lesson-6",
+      "original_code_sha256": "7347d34546ede46d93fb97c9ad518e6f70f14b1c4ac2209545c905bc284b8bda",
+      "explicit_inputs": [
+        "df",
+        "mean_length"
+      ]
+    },
+    {
+      "id": "lesson-7",
+      "original_code_sha256": "30cda3dc7d0b65e3885b4eb1b148c82f357b15859ea8b468dfc2db321dd46c9d",
+      "explicit_inputs": [
+        "df",
+        "mean_length"
+      ]
+    },
+    {
+      "id": "lesson-11",
+      "original_code_sha256": "26a04526057a49632541ff12d9ec337b8708f6f6edad178441c9ae0850dbf2e8",
+      "explicit_inputs": [
+        "central_moments",
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-12",
+      "original_code_sha256": "f051271373fe21bc2e16d0e956b74a58f6fa1466d21a4db8c241eaff2e9af43e",
+      "explicit_inputs": [
+        "central_moments",
+        "df",
+        "z"
+      ]
+    },
+    {
+      "id": "lesson-13",
+      "original_code_sha256": "3b09692eacbab37f38361402c2d98f5600534159b149f71157b493499d8fdd2e",
+      "explicit_inputs": [
+        "x"
+      ]
+    },
+    {
+      "id": "lesson-16",
+      "original_code_sha256": "36a088a83d551e058e3cdc6eb6027568d730e093f7ded0896d2edcf6518cec36",
+      "explicit_inputs": [
+        "simple_fit",
+        "x"
+      ]
+    },
+    {
+      "id": "transform",
+      "original_code_sha256": "8932aa8d420d71520c8da5a0f3d6daac356aec959a0d4ccd8c3d96e78602f4d9",
+      "explicit_inputs": []
+    },
+    {
+      "id": "dependence",
+      "original_code_sha256": "7be611f6ac9e4d250a9f9723158d6773e8a195a3b7624f99810099a7af5aed52",
+      "explicit_inputs": []
+    },
+    {
+      "id": "clt",
+      "original_code_sha256": "9afc36a08c102309aba20e4ebbe74ac301c53fc4be7c4cee27f40564b53aba83",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-8",
+      "original_code_sha256": "ee2f9f47939f0fa409004eb39f8b6be79d68524be9d860454ac7910e93f3e9aa",
+      "explicit_inputs": [
+        "mean_length"
+      ]
+    },
+    {
+      "id": "coverage",
+      "original_code_sha256": "4ae2b4b10b55858d523599e4fb67337c593daceb7d77864c3576ac9b39b1c811",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-9",
+      "original_code_sha256": "5f1b21ec71202ded9bd0c88173bc15c741eac5b53513ab8fbbdde32e9588257c",
+      "explicit_inputs": [
+        "x"
+      ]
+    },
+    {
+      "id": "inference",
+      "original_code_sha256": "7f14714162a7c3668fa65a1a2cdcd51e2e13a92a7d06a0979b19d24771615cf3",
+      "explicit_inputs": []
+    },
+    {
+      "id": "likelihood",
+      "original_code_sha256": "8fcc74ea2009c6c69c9aa39c3e61717237670f8eef63504300c41b920fe4c621",
+      "explicit_inputs": []
+    },
+    {
+      "id": "posterior",
+      "original_code_sha256": "57cdc1370a25cce51acfec0577ca6ab3fc37b9815b4f3f5d5527a0e39b222ce3",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-19",
+      "original_code_sha256": "6560bd3f99b8e528189ec1366ccf47cae9c28d31b31d7d03a29b7805b0ac685f",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-22",
+      "original_code_sha256": "274c36ffe0c3185960c29823730178b40e14cb4ee9d9f19bea6e9449500bce62",
+      "explicit_inputs": [
+        "groups_age"
+      ]
+    },
+    {
+      "id": "lesson-23",
+      "original_code_sha256": "1f023339c8bc36d5f193399a2eb5506adfba01fcdf56a2030b0dd1991ea53242",
+      "explicit_inputs": [
+        "low_exp",
+        "high_exp"
+      ]
+    },
+    {
+      "id": "lesson-18",
+      "original_code_sha256": "c14d49bdefe6dd0c38fca204b9a7791c36acdcbc5655e821f0a9fee754052773",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-25",
+      "original_code_sha256": "d9b2163ab329d5c0fc9d9fd7caf4d951b2b6ef214f0ddca8edb463d753ba777b",
+      "explicit_inputs": [
+        "groups_age"
+      ]
+    },
+    {
+      "id": "lesson-21",
+      "original_code_sha256": "46c531c8bd2589693520f41e80e95badabf513901ac82d931018e667e06d9e71",
+      "explicit_inputs": [
+        "age_group"
+      ]
+    },
+    {
+      "id": "lesson-26",
+      "original_code_sha256": "02df3417853bd289856724028901fb0e75e8fe6b21bdfd6456e4bc5cf6ff48d6",
+      "explicit_inputs": [
+        "groups_age"
+      ]
+    },
+    {
+      "id": "lesson-28",
+      "original_code_sha256": "71c5e8d7e84b8ec9311d72584cb6b33c3031a17f376c0f38f9d36b3bad021f68",
+      "explicit_inputs": [
+        "groups_age"
+      ]
+    },
+    {
+      "id": "lesson-27",
+      "original_code_sha256": "7840722f44a3aeffdb50518c9818944ff9e20f683f07b01ef7a07cbb1b8b739a",
+      "explicit_inputs": [
+        "experience_group"
+      ]
+    },
+    {
+      "id": "equivalence",
+      "original_code_sha256": "27a419ca63d1c92ee02e46bed842c17f0c98b2692ef6832a6a85fd4c3a009d08",
+      "explicit_inputs": []
+    },
+    {
+      "id": "fdr",
+      "original_code_sha256": "d498bd58c43c6af6f1c719dd4ca69a987c5910805fe830f671c0f1d87bdc0bab",
+      "explicit_inputs": []
+    },
+    {
+      "id": "randomization",
+      "original_code_sha256": "d57a407f79c41919f205ffe62045ae30bc2afd571e6f38df884f9cdc7c951a73",
+      "explicit_inputs": []
+    },
+    {
+      "id": "peeking",
+      "original_code_sha256": "fccf05abe4b4ab63c1cc246c653a42c2acfe623190912c3cbc36f67c5d1282c0",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-14",
+      "original_code_sha256": "d281b156a619d4341503bc4242dc00d04e20a79abf8f2987ac7f0a1694a876f8",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "scatter-matrix",
+      "original_code_sha256": "523fd72253708ba5342e11c2dfadd01a6236b15c397ea9b4036db6fa97dbe599",
+      "explicit_inputs": [
+        "df",
+        "numeric_cols"
+      ]
+    },
+    {
+      "id": "simpson",
+      "original_code_sha256": "77a88f7d49ac200119b9b2abc12d3720dfaec1d770ebc78b92bac07fed4c0cc1",
+      "explicit_inputs": []
+    },
+    {
+      "id": "dag",
+      "original_code_sha256": "7c12f10718040c6020a609cbec61dceeeb7416d2607549474fbadfbb5dff5df2",
+      "explicit_inputs": []
+    },
+    {
+      "id": "causal",
+      "original_code_sha256": "ba07c6ce32cfe6d18a58aee8b80c8a22f13dcbfe14b157c70a0468bee54f5d70",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-15",
+      "original_code_sha256": "b6888f263a3fcd83001bf05451df803fb416cad0cf0da7bbaeee00b622e82bbc",
+      "explicit_inputs": [
+        "df",
+        "x"
+      ]
+    },
+    {
+      "id": "lesson-17",
+      "original_code_sha256": "bb18edb00b90034e98b21dbeea866ecff389317a3576a6209991005a75569f77",
+      "explicit_inputs": [
+        "simple_fit"
+      ]
+    },
+    {
+      "id": "lesson-20",
+      "original_code_sha256": "a079c4eb1a414f63b6495e12f2facc0fcf2f5616fa8bc370ad7a2e44b43c62eb",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "logistic",
+      "original_code_sha256": "c69853c6e2d37144f6e4ac66166d76cf44246ac1c242e0cff8b50d3976f09b63",
+      "explicit_inputs": []
+    },
+    {
+      "id": "counts",
+      "original_code_sha256": "835940f8c7a2983265bb8e979adb161c36a4671e8240c51c294df53d31f31b63",
+      "explicit_inputs": []
+    },
+    {
+      "id": "ridge",
+      "original_code_sha256": "a91b7a544829d46f94d6a9408e8688b019dfbc67695042d74d051518051cc77c",
+      "explicit_inputs": []
+    },
+    {
+      "id": "pooling",
+      "original_code_sha256": "482bb49bd702bc2be865218252c5a955f20397705fd53b99a833305921924e0e",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-24",
+      "original_code_sha256": "e589d3ec37e90b6f9f0a06c0f240b224accdef9f9323d5589d174f22a578c34a",
+      "explicit_inputs": [
+        "df",
+        "numeric_cols"
+      ]
+    },
+    {
+      "id": "pca-reading",
+      "original_code_sha256": "9a2ea3197c2e260e37f5f347f7025a7ac73743e2584df274e328d2396d84f82c",
+      "explicit_inputs": [
+        "df",
+        "numeric_cols"
+      ]
+    },
+    {
+      "id": "lesson-30",
+      "original_code_sha256": "62658411fd4b9e1299347bfa7c8d5ea485bf7ae742170038dd2145ebc9c7a1b2",
+      "explicit_inputs": [
+        "age_group"
+      ]
+    },
+    {
+      "id": "lesson-31",
+      "original_code_sha256": "1536e733e8459f4c51e22ea7eb7fa81d000d4d26a03c1fc2008fbcf607743c20",
+      "explicit_inputs": [
+        "X_scaled",
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-32",
+      "original_code_sha256": "c5d3aa6733c476e7ff6df922fcc9521ad5a853b59fdedfd9671bc21e9f0def48",
+      "explicit_inputs": [
+        "X_scaled"
+      ]
+    },
+    {
+      "id": "evaluation",
+      "original_code_sha256": "3d062ba49b2918594b9836eeee3342ea10a7b1483350cb428089cbd55200f79d",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "validation",
+      "original_code_sha256": "0754f258a14581f6867f1182f1d21cf72a8e1e0bf91d015d17e00dc5d2d8ae15",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-29",
+      "original_code_sha256": "c2ff4fcc5abea542bd4956ca5255e37c6cc482f12221672765c2179927cd75b7",
+      "explicit_inputs": [
+        "df"
+      ]
+    },
+    {
+      "id": "lesson-36",
+      "original_code_sha256": "9fc6b24e88dd1b07fcd6097471b29ae413f0500a951cf6afce87c7bbe937dd3b",
+      "explicit_inputs": [
+        "X_class",
+        "y_class",
+        "lda_pipe",
+        "loo"
+      ]
+    },
+    {
+      "id": "lesson-33",
+      "original_code_sha256": "446fa6adb79e56b2348c7377457cbc04d8fafa461519537758e3b62294a656a1",
+      "explicit_inputs": [
+        "df",
+        "loo"
+      ]
+    },
+    {
+      "id": "lesson-34",
+      "original_code_sha256": "d4e101d91252486e123dd495ba05ef7f3ef134e117b82e54d90c8a923a3fecab",
+      "explicit_inputs": [
+        "df",
+        "loo"
+      ]
+    },
+    {
+      "id": "lesson-37",
+      "original_code_sha256": "48937b3fdf58a890b482683d9be0d43014f865334b79ff7348136b5a363beb5f",
+      "explicit_inputs": [
+        "X_reg",
+        "y_reg",
+        "loo"
+      ]
+    },
+    {
+      "id": "lesson-38",
+      "original_code_sha256": "283e9d4d846ccd6af00a0aa12673ea6162853c6f63de9668a69b32e564bf0dee",
+      "explicit_inputs": [
+        "X_scaled"
+      ]
+    },
+    {
+      "id": "information",
+      "original_code_sha256": "84f371eba5b0d3f6814e871b6495dc83c2d2d72150542b98fdee408b1c62d974",
+      "explicit_inputs": []
+    },
+    {
+      "id": "calibration",
+      "original_code_sha256": "cf8ea7ff5be950cadefb9a690cf1fcc80fb85fd7cfb6e7939407891568adea2c",
+      "explicit_inputs": []
+    },
+    {
+      "id": "conformal",
+      "original_code_sha256": "4ea568ab508bb37401eac7c6c4345597b6aba8ab363a33ca61714410606d2a36",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-35",
+      "original_code_sha256": "262345250caaba754bf5fa23074d867ea28330200523be9932595b246757a6a9",
+      "explicit_inputs": []
+    },
+    {
+      "id": "logrank",
+      "original_code_sha256": "6406eee83a758d9cf3c0d04f841f671ae561bdf54ebdc12e94e1357985e2464d",
+      "explicit_inputs": []
+    },
+    {
+      "id": "time-dependence",
+      "original_code_sha256": "94d03a470ad952d2884525978aa46ebd8957da16659c5242b72a0112c988501e",
+      "explicit_inputs": []
+    },
+    {
+      "id": "lesson-39",
+      "original_code_sha256": "64643520a969cc05af9710fabaad36027c04cfd9942bb8fd36128cb4fa5b2b07",
+      "explicit_inputs": []
+    },
+    {
+      "id": "time-tools",
+      "original_code_sha256": "c54a4b2a5a0bae7ca2736de5b09ccbef0b02d148eabc76eaf3181a968c07259f",
+      "explicit_inputs": [
+        "sales"
+      ]
+    },
+    {
+      "id": "real-quartiles",
+      "original_code_sha256": "3bd9fa4128a46ba52af3e862f17dacf70f3b44e867572603dfa2c83b50d8362e",
+      "explicit_inputs": []
+    },
+    {
+      "id": "real-moments",
+      "original_code_sha256": "94ecef320b153490e4618c224688559acd3d8fb4fa17f424c6fd3d8ba4b437bf",
+      "explicit_inputs": []
+    },
+    {
+      "id": "real-correlation",
+      "original_code_sha256": "e2c2cf853e57ab3c82e223b2eee12e7c0cb074a2925b587a336e2d616b5fdc16",
+      "explicit_inputs": []
+    },
+    {
+      "id": "responsible",
+      "original_code_sha256": "1865daee4429e4181c4b1f21f105320e86f3dff60cf3d2fa5aadc6cabc70a710",
+      "explicit_inputs": []
+    },
+    {
+      "id": "design",
+      "original_code_sha256": "8f5f3d80c4575f56b51a7ace5065b869dc325ef2710b4cf70696cd6c56199194",
+      "explicit_inputs": [
+        "df"
+      ]
+    }
+  ],
+  "figure_files": [
+    "01-estimand-1.png",
+    "03-measurement-0.png",
+    "04-joins-2.png",
+    "05-missing-0.png",
+    "06-sampling-0.png",
+    "07-lesson-2-0.png",
+    "08-lesson-3-1.png",
+    "09-lesson-5-1.png",
+    "10-lesson-10-0.png",
+    "11-robust-0.png",
+    "12-conditional-1.png",
+    "13-bayes-0.png",
+    "14-distributions-0.png",
+    "15-lesson-4-0.png",
+    "16-lesson-6-1.png",
+    "17-lesson-7-1.png",
+    "18-lesson-11-1.png",
+    "19-lesson-12-1.png",
+    "20-lesson-13-0.png",
+    "21-lesson-16-1.png",
+    "22-transform-0.png",
+    "23-dependence-0.png",
+    "24-clt-0.png",
+    "25-lesson-8-1.png",
+    "26-coverage-0.png",
+    "27-lesson-9-1.png",
+    "28-inference-0.png",
+    "29-likelihood-0.png",
+    "30-posterior-0.png",
+    "31-lesson-19-1.png",
+    "32-lesson-22-1.png",
+    "33-lesson-23-1.png",
+    "34-lesson-18-2.png",
+    "35-lesson-25-1.png",
+    "36-lesson-21-2.png",
+    "37-lesson-26-1.png",
+    "38-lesson-28-1.png",
+    "39-lesson-27-2.png",
+    "40-equivalence-0.png",
+    "41-fdr-1.png",
+    "42-randomization-0.png",
+    "43-peeking-0.png",
+    "44-lesson-14-1.png",
+    "45-scatter-matrix-0.png",
+    "45-scatter-matrix-1.png",
+    "46-simpson-1.png",
+    "47-dag-0.png",
+    "48-causal-0.png",
+    "49-lesson-15-1.png",
+    "50-lesson-17-1.png",
+    "51-lesson-20-2.png",
+    "52-logistic-0.png",
+    "53-counts-0.png",
+    "54-ridge-0.png",
+    "55-pooling-1.png",
+    "56-lesson-24-2.png",
+    "57-pca-reading-1.png",
+    "58-lesson-30-1.png",
+    "59-lesson-31-2.png",
+    "60-lesson-32-0.png",
+    "61-evaluation-3.png",
+    "62-validation-1.png",
+    "63-lesson-29-3.png",
+    "64-lesson-36-0.png",
+    "65-lesson-33-2.png",
+    "66-lesson-34-3.png",
+    "67-lesson-37-1.png",
+    "68-lesson-38-1.png",
+    "69-information-0.png",
+    "70-calibration-0.png",
+    "71-conformal-0.png",
+    "72-lesson-35-0.png",
+    "73-logrank-2.png",
+    "74-time-dependence-0.png",
+    "75-lesson-39-3.png",
+    "76-time-tools-0.png",
+    "76-time-tools-1.png",
+    "76-time-tools-3.png",
+    "77-real-quartiles-1.png",
+    "77-real-quartiles-2.png",
+    "78-real-moments-2.png",
+    "78-real-moments-3.png",
+    "79-real-correlation-0.png",
+    "80-responsible-0.png",
+    "81-design-1.png"
+  ],
+  "python": "3.12.14",
+  "sha256": "0a226dd1c3c4e435a8035316d86f9142e464fe0d95aab367b5118d753cb68b4f"
+}
