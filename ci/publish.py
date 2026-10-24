@@ -17,9 +17,19 @@ def api(path,method='GET',data=None):
         headers={'Authorization':'Bearer '+os.environ['GH_TOKEN'],'Accept':'application/vnd.github+json','User-Agent':'MouseLab-release'})
     with urllib.request.urlopen(request,timeout=30) as response: return json.load(response)
 
+def current_source(source):
+    head=api('git/ref/heads/main')['object']['sha']
+    if head==source: return True
+    comparison=api('compare/'+source+'...'+head)
+    if comparison['status']!='ahead' or comparison['merge_base_commit']['sha']!=source: return False
+    changed=comparison.get('files',[])
+    if len(changed)>=300: return False  # GitHub may truncate larger comparisons.
+    # An unrelated README edit must not strand a valid in-flight notebook release.
+    return not any(f['filename']==NAME or f['filename'].startswith('ci/') or f['filename']=='.github/workflows/notebook-release.yml' for f in changed)
+
 def main():
     source=os.environ['GITHUB_SHA']; assert re.fullmatch('[0-9a-f]{40}',source)
-    if api('git/ref/heads/main')['object']['sha']!=source:
+    if not current_source(source):
         print('Superseded by a newer main commit; not promoted.'); return
     root=Path(__file__).resolve().parent
     contract=json.loads((root/'contract.json').read_text())
@@ -45,7 +55,7 @@ def main():
         tree.append({'path':name,'mode':'100644','type':'blob','sha':blob['sha']})
     tree_sha=api('git/trees','POST',{'tree':tree})['sha']
     commit=api('git/commits','POST',{'message':'Verified notebook from '+source,'tree':tree_sha,'parents':[parent] if parent else []})['sha']
-    if api('git/ref/heads/main')['object']['sha']!=source:
+    if not current_source(source):
         print('New source arrived before promotion; keeping previous published release.'); return
     if parent: api('git/refs/heads/published','PATCH',{'sha':commit,'force':False})
     else: api('git/refs','POST',{'ref':'refs/heads/published','sha':commit})
